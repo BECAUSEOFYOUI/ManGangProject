@@ -1,4 +1,4 @@
 package com.qfedu.service;
 
-public class UserService {
+public interface UserService {
 }
