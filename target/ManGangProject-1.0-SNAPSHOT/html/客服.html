@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/master.css"/>
+		<link rel="stylesheet" type="text/css" href="../fonts/iconfont.css"/>
+		<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="custoService-bigbox bigbox">
+			
+			<!-- header -->
+			<header class="custoService-header">
+				<a href="wode.html">
+				<span class="iconfont icon-xiaoyuhao"></span>
+				</a>
+				<h3>客服</h3>
+			</header>
+			
+			
+			<!-- main -->
+			<div class="custoService-main">
+				<div class="cm-top">6月21日13:21</div>
+				<p>请注意您的财产安全，谨防上当</p>
+				<ul class="cm-talk">
+					<li class="msgleft">您好！客服小衣为您服务，有什么可以帮你的呢？</li>
+					<div style="clear: both;"></div>
+					<li class="msgright">我想了解下最近的活动有什么限制<em></em></li>
+					<div style="clear: both;"></div>
+				</ul>
+				
+			</div>
+			
+			<script type="text/javascript">
+				window.onload=function(){
+					let sendbtn = document.querySelector('.sendbtn')
+					let msg_input = document.querySelector('.msg_input')
+					let content = document.querySelector('.cm-talk')
+					sendbtn.onclick = function(){
+					sendMessage()
+									
+			}
+								
+					document.onkeydown = function(e){
+					if(e.ctrlKey && e.keyCode==13){
+					let str =msg_input.value
+					// `
+					// <li>${msg_input.value}<em></em></li>
+					// `
+					sendMessage()
+				}
+			}
+								
+				function sendMessage(){
+					let str = msg_input.value
+					// `
+					// <li>${msg_input.value}<em></em></li>
+					// `
+					// content.innerHTML+=str
+					let oLi = document.createElement('li')
+					oLi.innerHTML = str;
+					let ems=document.createElement('em')
+					oLi.appendChild(ems)
+					oLi.className = 'msgright'
+									
+					content.appendChild(oLi)
+									
+					let oDiv = document.createElement('div')
+					oDiv.style.clear ='both'
+					content.appendChild(oDiv)
+					oLi.scrollIntoView()
+					msg_input.value = ''
+			}
+					
+	}
+			</script>
+			
+			<!-- footer -->
+			<footer class="custoService-footer">
+				<span class="iconfont icon-xiaoxi"></span>
+				<input type="text" name="" id="" value="" class="msg_input"/>
+				<button type="button" class="sendbtn">发送</button>
+				<!-- <span class="iconfont icon-lianjie"></span> -->
+				<span class="iconfont icon-dizhi"></span>
+			</footer>
+			
+		</div>
+	</body>
+</html>

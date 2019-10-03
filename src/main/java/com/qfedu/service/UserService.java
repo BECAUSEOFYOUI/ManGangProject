@@ -3,7 +3,11 @@ package com.qfedu.service;
 import com.qfedu.entity.User;
 
 public interface UserService {
-    int selectByPhoneNum(String phoneNumber);
+    //通过邮箱查询指定用户
+    User selectUserByEmail(String userEmail);
 
-    User selectUserByPhone();
+    void insertEmail(String userEmail);
+
+    int selectByEmail(String userEmail);
+
 }

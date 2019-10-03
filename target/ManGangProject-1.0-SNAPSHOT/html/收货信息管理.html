@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/master.css" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../fonts/iconfont.css" />
+		<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.onload=function(){
+				let backs=document.querySelector('.Receiptinformation-header span')
+				backs.onclick=function(){
+					location.href='wode.html'
+				}
+			}
+		</script>
+		<div class="Receiptinformation-bigbox bigbox">
+
+			<!-- header -->
+			<header class="Receiptinformation-header">
+			<span class="iconfont icon-xiaoyuhao"></span>
+			<h3>收货信息管理</h3>
+			<p>保存</p>
+			</header>
+
+
+			<!-- main -->
+			<div class="Receiptinformation-main main">
+			<div class="rim-block">
+				<h3>收货人</h3>
+				<input type="text" name="" id="" value="" placeholder="请输入姓名"/>
+			</div>
+			<div class="rim-block">
+				<h3>联系电话</h3>
+				<input type="text" name="" id="" value="" placeholder="请输入联系电话"/>
+			</div>
+			<div class="rim-block">
+				<h3>所在地区</h3>
+				<p>请选择省份、市县、区县<span class="iconfont icon-dayuhao"></span></p>
+			</div>
+				<!-- <textarea rows="" cols="">请填写详细地址（不少于5个字）</textarea> -->
+			<textarea class="textarea" onfocus="document.getElementById('note').style.display='none'" onblur="if(value=='')document.getElementById('note').style.display='block'"></textarea>
+			<div id="note" class="note">
+			<font color="#777">请填写详细地址（不少于5个字）</font>
+				        </div>
+			</div>
+
+
+
+			<!-- footer -->
+			<footer class="Receiptinformation-footer">
+
+			</footer>
+		</div>
+
+
+
+	</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>分类</title>
+    <link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/master.css">
+	<link rel="stylesheet" href="../fonts/iconfont.css">
+	<script src="../js/rem.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		window.onload=function(){
+			let lis=document.querySelectorAll('.fl_item li')
+			for(let i=0;i<lis.length;i++){
+				lis[i].onclick=function(){
+					location.href='商品详情.html'
+				}
+			}
+		}
+	</script>
+    <div class="container">
+		<header id="jx_header">
+			<input type="text" name="" id="jx_ipt" placeholder="寻找你的商品/文章/品牌">
+		</header>
+
+
+		<div class="content fl_content">
+            <div class="fl_title">
+                <a href="javasrcipt:;">分类</a>
+                <a href="./pingpai.html">品牌</a>
+            </div>
+
+            <ul class="fl_ul">
+                <li class="fl_li">
+                    <span class="fl_cur">热门</span>
+                    <div class="fl_rm fl_active">
+                        <img src="../img/fl_bg01.png" alt="" class="rm_banner">
+                        <ul class="fl_item">
+                            <li>
+                                <div class="fl_box">
+                                    <img src="../img/fl_img01.png" alt="">
+                                </div>
+                                <p class="fl__p">POLOL 衫</p>
+                            </li>
+                            <li>
+                                <div class="fl_box">
+                                    <img src="../img/fl_img01.png" alt="">
+                                </div>
+                                <p class="fl__p">POLOL 衫</p>
+                            </li>
+                            <li>
+                                <div class="fl_box">
+                                    <img src="../img/fl_img01.png" alt="">
+                                </div>
+                                <p class="fl__p">POLOL 衫</p>
+                            </li>
+                            <li>
+                                <div class="fl_box">
+                                    <img src="../img/fl_img01.png" alt="">
+                                </div>
+                                <p class="fl__p">POLOL 衫</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="fl_li"><span>上衣</span></li>
+                <li class="fl_li"><span>鞋子</span></li>
+                <li class="fl_li"><span>裤子</span></li>
+                <li class="fl_li"><span>护理</span></li>
+                <li class="fl_li"><span>箱包</span></li>
+                <li class="fl_li"><span>配饰</span></li>
+                <li class="fl_li"><span>生活</span></li>
+            </ul>
+
+
+		</div>
+
+		<footer class="fl_footer">
+			<ul class="footer_list">
+				<li>
+					<a href="./shouye.html">
+						<i class="iconfont">&#xe605;</i>
+						<p>首页</p>
+					</a>
+				</li>
+				<li>
+					<a href="./jingxuan.html">
+						<i class="iconfont">&#xe60a;</i>
+						<p>精选</p>
+					</a>
+				</li>
+				<li>
+					<a href="javasrcipt:;">
+						<i class="iconfont">&#xe671;</i>
+						<p>分类</p>
+					</a>
+				</li>
+				<li>
+					<a href="./gouwuche.html">
+						<i class="iconfont">&#xe603;</i>
+						<p>购物车</p>
+					</a>
+				</li>
+				<li>
+					<a href="./wode.html">
+						<i class="iconfont">&#xe619;</i>
+						<p>我的</p>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</div>
+
+</body>
+</html>
