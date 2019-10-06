@@ -19,14 +19,14 @@
 			}
 		</script>
 		<div class="setup-bigbox bigbox">
-			
+
 			<!-- header -->
 			<header class="setup-header">
 				<span class="iconfont icon-xiaoyuhao"></span>
 				<h3>设置</h3>
 			</header>
-			
-			
+
+
 			<!-- main -->
 			<div class="setup-main main">
 				<div class="sum-person">
@@ -60,16 +60,21 @@
 					</div>
 				</div>
 			</div>
-			
-			
-			
+
+
+
 			<!-- footer -->
 			<footer class="setup-footer">
-				<h3>退出登录</h3>
+				<h3 class="setup-out">退出登录</h3>
 			</footer>
 		</div>
-		
-		
-		
+
+		<script>
+			let setup_out = document.querySelector('.setup-out');
+			setup_out.onclick=function(){
+				location.href='login.html'
+			}
+		</script>
+
 	</body>
 </html>

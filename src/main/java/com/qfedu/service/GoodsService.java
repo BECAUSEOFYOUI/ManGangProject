@@ -10,4 +10,6 @@ public interface GoodsService {
      * @return
      */
     List<Goods> selectHotSellingGoods();
+
+    List<Goods> selectGoodsByStyleId(Integer id);
 }

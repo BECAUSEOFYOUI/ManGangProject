@@ -8,15 +8,18 @@
 		<link rel="stylesheet" type="text/css" href="../css/master.css"/>
 		<link rel="stylesheet" type="text/css" href="../fonts/iconfont.css"/>
 		<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.custoService-main::-webkit-scrollbar{
+				display: none;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="custoService-bigbox bigbox">
 			
 			<!-- header -->
 			<header class="custoService-header">
-				<a href="wode.html">
 				<span class="iconfont icon-xiaoyuhao"></span>
-				</a>
 				<h3>客服</h3>
 			</header>
 			
@@ -36,11 +39,37 @@
 			
 			<script type="text/javascript">
 				window.onload=function(){
+					
+					let backs=document.querySelector('.custoService-header span')
+					backs.onclick=function(){
+						history.back()
+					}
+					
 					let sendbtn = document.querySelector('.sendbtn')
 					let msg_input = document.querySelector('.msg_input')
 					let content = document.querySelector('.cm-talk')
+					
+					function isnull(val) {
+					
+					    var str = val.replace(/(^\s*)|(\s*$)/g, '');//去除空格;
+					
+					    if (str == '' || str == undefined || str == null) {
+					       //return true;
+								
+					            console.log('空');
+								return;
+					    } else {
+					            //return false;
+								sendMessage()
+								console.log('非空');
+					    }
+					}
+
+					
 					sendbtn.onclick = function(){
-					sendMessage()
+						
+						isnull(msg_input.value)
+					// sendMessage()
 									
 			}
 								
@@ -50,7 +79,8 @@
 					// `
 					// <li>${msg_input.value}<em></em></li>
 					// `
-					sendMessage()
+					isnull(msg_input.value)
+					// sendMessage()
 				}
 			}
 								

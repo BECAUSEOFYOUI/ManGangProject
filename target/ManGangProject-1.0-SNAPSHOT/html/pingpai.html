@@ -9,6 +9,11 @@
 	<link rel="stylesheet" href="../css/master.css">
 	<link rel="stylesheet" href="../fonts/iconfont.css">
 	<script src="../js/rem.js"></script>
+	<style type="text/css">
+		.pp_content::-webkit-scrollbar{
+			display: none;
+		}
+	</style>
 </head>
 <body>
 	<script type="text/javascript">
@@ -19,6 +24,30 @@
 					location.href='品牌详情.html'
 				}
 			}
+			
+			let oSpans=document.querySelectorAll('.pp_sp')
+			let oDivs=document.querySelectorAll('.pp_active')
+			
+			for(let i=0;i<oSpans.length;i++){
+				oSpans[i].index=i;
+				oSpans[i].onclick=function(){
+					for(let j=0;j<oSpans.length;j++){
+						oSpans[j].className=''
+						oDivs[j].style.display='none'
+					}
+					this.className='pp_cur'
+					oDivs[this.index].style.display='block'
+				}
+					for(var m=1;m<oSpans.length;m++){
+						oSpans[m].className='';
+						oDivs[m].style.display="none";
+					}
+				
+				
+				}
+			
+			
+			
 		}
 	</script>
     <div class="container">
@@ -35,7 +64,7 @@
 
             <ul class="pp_ul">
                 <li class="pp_li">
-                    <span class="pp_cur">热门品牌</span>
+                    <span class="pp_cur pp_sp">热门品牌</span>
                     <div class="pp_rm pp_active">
 
                         <div class="pp_rm_banner">
@@ -96,18 +125,162 @@
                         </div>
                     </div>
                 </li>
-                <li class="pp_li"><span>知名品牌</span></li>
-                <li class="pp_li"><span>品牌新秀</span></li>
-                <li class="pp_li"><span>会员折扣</span></li>
-                <li class="pp_li"><span>时尚商务</span></li>
-                <li class="pp_li"><span>简约休闲</span></li>
-                <li class="pp_li"><span>原创国潮</span></li>
-                <li class="pp_li"><span>美妆护肤</span></li>
-                <li class="pp_li"><span>日韩潮流</span></li>
-                <li class="pp_li"><span>工装基础</span></li>
-                <li class="pp_li"><span>文艺清新</span></li>
-                <li class="pp_li"><span>都市熟男</span></li>
-                <li class="pp_li"><span>街头潮流</span></li>
+                <li class="pp_li"><span class="pp_sp">知名品牌</span>
+				<div class="pp_rm pp_active">
+				
+				    <div class="pp_rm_banner">
+				        <div class="pp_re_banner_touxiang">
+				            <p class="pp_touxiang_txt">VIISHOW</p>
+				        </div>
+				        <p class="pp_rm_name">VIISHOW</p>
+				        <p class="pp_rm_txt">VIISHOW创立于1991年的快时尚男装品牌...</p>
+				        <a href="javascript:;" class="pp_src">进入品牌</a>
+				    </div>
+				</div>
+				</li>
+                <li class="pp_li"><span class="pp_sp">品牌新秀</span>
+				<div class="pp_rm pp_active">
+				
+				    <div class="pp_rm_banner">
+				        <div class="pp_re_banner_touxiang">
+				            <p class="pp_touxiang_txt">VIISHOW</p>
+				        </div>
+				        <p class="pp_rm_name">VIISHOW</p>
+				        <p class="pp_rm_txt">VIISHOW创立于1991年的快时尚男装品牌...</p>
+				        <a href="javascript:;" class="pp_src">进入品牌</a>
+				    </div>
+				</div>
+				</li>
+                <li class="pp_li"><span class="pp_sp">会员折扣</span>
+				<div class="pp_rm pp_active">
+				
+				    <div class="pp_rm_banner">
+				        <div class="pp_re_banner_touxiang">
+				            <p class="pp_touxiang_txt">VIISHOW</p>
+				        </div>
+				        <p class="pp_rm_name">VIISHOW</p>
+				        <p class="pp_rm_txt">VIISHOW创立于1991年的快时尚男装品牌...</p>
+				        <a href="javascript:;" class="pp_src">进入品牌</a>
+				    </div>
+				</div>
+				</li>
+                <li class="pp_li"><span class="pp_sp">时尚商务</span>
+				<div class="pp_rm pp_active">
+				
+				    <div class="pp_rm_banner">
+				        <div class="pp_re_banner_touxiang">
+				            <p class="pp_touxiang_txt">VIISHOW</p>
+				        </div>
+				        <p class="pp_rm_name">VIISHOW</p>
+				        <p class="pp_rm_txt">VIISHOW创立于1991年的快时尚男装品牌...</p>
+				        <a href="javascript:;" class="pp_src">进入品牌</a>
+				    </div>
+				</div>
+				</li>
+                <li class="pp_li"><span class="pp_sp">简约休闲</span>
+				<div class="pp_rm pp_active">
+				
+				    <div class="pp_rm_banner">
+				        <div class="pp_re_banner_touxiang">
+				            <p class="pp_touxiang_txt">VIISHOW</p>
+				        </div>
+				        <p class="pp_rm_name">VIISHOW</p>
+				        <p class="pp_rm_txt">VIISHOW创立于1991年的快时尚男装品牌...</p>
+				        <a href="javascript:;" class="pp_src">进入品牌</a>
+				    </div>
+				</div>
+				</li>
+                <li class="pp_li"><span class="pp_sp">原创国潮</span>
+				<div class="pp_rm pp_active">
+				
+				    <div class="pp_rm_banner">
+				        <div class="pp_re_banner_touxiang">
+				            <p class="pp_touxiang_txt">VIISHOW</p>
+				        </div>
+				        <p class="pp_rm_name">VIISHOW</p>
+				        <p class="pp_rm_txt">VIISHOW创立于1991年的快时尚男装品牌...</p>
+				        <a href="javascript:;" class="pp_src">进入品牌</a>
+				    </div>
+				</div>
+				</li>
+                <li class="pp_li"><span class="pp_sp">美妆护肤</span>
+				<div class="pp_rm pp_active">
+				
+				    <div class="pp_rm_banner">
+				        <div class="pp_re_banner_touxiang">
+				            <p class="pp_touxiang_txt">VIISHOW</p>
+				        </div>
+				        <p class="pp_rm_name">VIISHOW</p>
+				        <p class="pp_rm_txt">VIISHOW创立于1991年的快时尚男装品牌...</p>
+				        <a href="javascript:;" class="pp_src">进入品牌</a>
+				    </div>
+				</div>
+				</li>
+                <li class="pp_li"><span class="pp_sp">日韩潮流</span>
+				<div class="pp_rm pp_active">
+				
+				    <div class="pp_rm_banner">
+				        <div class="pp_re_banner_touxiang">
+				            <p class="pp_touxiang_txt">VIISHOW</p>
+				        </div>
+				        <p class="pp_rm_name">VIISHOW</p>
+				        <p class="pp_rm_txt">VIISHOW创立于1991年的快时尚男装品牌...</p>
+				        <a href="javascript:;" class="pp_src">进入品牌</a>
+				    </div>
+				</div>
+				</li>
+                <li class="pp_li"><span class="pp_sp">工装基础</span>
+				<div class="pp_rm pp_active">
+				
+				    <div class="pp_rm_banner">
+				        <div class="pp_re_banner_touxiang">
+				            <p class="pp_touxiang_txt">VIISHOW</p>
+				        </div>
+				        <p class="pp_rm_name">VIISHOW</p>
+				        <p class="pp_rm_txt">VIISHOW创立于1991年的快时尚男装品牌...</p>
+				        <a href="javascript:;" class="pp_src">进入品牌</a>
+				    </div>
+				</div>
+				</li>
+                <li class="pp_li"><span class="pp_sp">文艺清新</span>
+				<div class="pp_rm pp_active">
+				
+				    <div class="pp_rm_banner">
+				        <div class="pp_re_banner_touxiang">
+				            <p class="pp_touxiang_txt">VIISHOW</p>
+				        </div>
+				        <p class="pp_rm_name">VIISHOW</p>
+				        <p class="pp_rm_txt">VIISHOW创立于1991年的快时尚男装品牌...</p>
+				        <a href="javascript:;" class="pp_src">进入品牌</a>
+				    </div>
+				</div>
+				</li>
+                <li class="pp_li"><span class="pp_sp">都市熟男</span>
+				<div class="pp_rm pp_active">
+				
+				    <div class="pp_rm_banner">
+				        <div class="pp_re_banner_touxiang">
+				            <p class="pp_touxiang_txt">VIISHOW</p>
+				        </div>
+				        <p class="pp_rm_name">VIISHOW</p>
+				        <p class="pp_rm_txt">VIISHOW创立于1991年的快时尚男装品牌...</p>
+				        <a href="javascript:;" class="pp_src">进入品牌</a>
+				    </div>
+				</div>
+				</li>
+                <li class="pp_li"><span class="pp_sp">街头潮流</span>
+				<div class="pp_rm pp_active">
+				
+				    <div class="pp_rm_banner">
+				        <div class="pp_re_banner_touxiang">
+				            <p class="pp_touxiang_txt">VIISHOW</p>
+				        </div>
+				        <p class="pp_rm_name">VIISHOW</p>
+				        <p class="pp_rm_txt">VIISHOW创立于1991年的快时尚男装品牌...</p>
+				        <a href="javascript:;" class="pp_src">进入品牌</a>
+				    </div>
+				</div>
+				</li>
             </ul>
 
 

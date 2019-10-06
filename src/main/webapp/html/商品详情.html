@@ -9,6 +9,12 @@
 		<link rel="stylesheet" type="text/css" href="../fonts/iconfont.css"/>
 		<link rel="stylesheet" href="../swiper-Swiper4/dist/css/swiper.min.css">
 		<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			
+			.commodityDetails-main::-webkit-scrollbar{
+				display: none;
+			}
+		</style>
 	</head>
 	<body>
 		
@@ -45,7 +51,17 @@
 				
 		<script>
 				window.onload = function() {
-				
+					let kefus=document.querySelectorAll('.cdf-pic')
+					kefus[0].onclick=function(){
+						location.href='客服.html'
+					}
+					kefus[1].onclick=function(){
+						location.href='gouwuche.html'
+					}
+					kefus[2].onclick=function(){
+						location.href='shoucang.html'
+					}
+					
 					let backs=document.querySelectorAll('header span')
 					backs[0].onclick=function(){
 						history.back()
@@ -75,7 +91,7 @@
 				}
 					</script>
 					<div class="cdm-pdesc">
-					<h3>有时有一/原创设计 好事发生印花潮流白T恤夏季纯棉圆领宽松短袖</h3>	
+					<h3>有时又一/原创设计 好事发生印花潮流白T恤夏季纯棉圆领宽松短袖</h3>	
 					</div>
 					<div class="cdm-pprice">
 						<span>￥59</span><p><s>￥99</s></p><em>6.0折</em>

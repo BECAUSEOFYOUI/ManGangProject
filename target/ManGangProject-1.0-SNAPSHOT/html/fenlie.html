@@ -9,6 +9,11 @@
 	<link rel="stylesheet" href="../css/master.css">
 	<link rel="stylesheet" href="../fonts/iconfont.css">
 	<script src="../js/rem.js"></script>
+	<style type="text/css">
+		.fl_content::-webkit-scrollbar{
+			display: none;
+		}
+	</style>
 </head>
 <body>
 	<script type="text/javascript">
@@ -19,6 +24,29 @@
 					location.href='商品详情.html'
 				}
 			}
+			let oSpans=document.querySelectorAll('.fl_ul span')
+			let oDivs=document.querySelectorAll('.fl_active')
+			
+			for(let i=0;i<oSpans.length;i++){
+				oSpans[i].index=i;
+				oSpans[i].onclick=function(){
+					for(let j=0;j<oSpans.length;j++){
+						oSpans[j].className=''
+						oDivs[j].style.display='none'
+					}
+					this.className='fl_cur'
+					oDivs[this.index].style.display='block'
+				}
+					for(var m=1;m<oSpans.length;m++){
+						oSpans[m].className='';
+						oDivs[m].style.display="none";
+					}
+				
+				
+				}
+			
+			
+			
 		}
 	</script>
     <div class="container">
@@ -66,13 +94,35 @@
                         </ul>
                     </div>
                 </li>
-                <li class="fl_li"><span>上衣</span></li>
-                <li class="fl_li"><span>鞋子</span></li>
-                <li class="fl_li"><span>裤子</span></li>
-                <li class="fl_li"><span>护理</span></li>
-                <li class="fl_li"><span>箱包</span></li>
-                <li class="fl_li"><span>配饰</span></li>
-                <li class="fl_li"><span>生活</span></li>
+                <li class="fl_li"><span>上衣</span>
+				<div class="fl_rm fl_active">
+                <img src="../img/fl_bg01.png" alt="" class="rm_banner">
+				</div>
+				</li>
+                <li class="fl_li"><span>鞋子</span>
+				<div class="fl_rm fl_active">
+				<img src="../img/fl_bg01.png" alt="" class="rm_banner">
+				</div></li>
+                <li class="fl_li"><span>裤子</span>
+				<div class="fl_rm fl_active">
+				<img src="../img/fl_bg01.png" alt="" class="rm_banner">
+				</div></li>
+                <li class="fl_li"><span>护理</span>
+				<div class="fl_rm fl_active">
+				<img src="../img/fl_bg01.png" alt="" class="rm_banner">
+				</div></li>
+                <li class="fl_li"><span>箱包</span>
+				<div class="fl_rm fl_active">
+				<img src="../img/fl_bg01.png" alt="" class="rm_banner">
+				</div></li>
+                <li class="fl_li"><span>配饰</span>
+				<div class="fl_rm fl_active">
+				<img src="../img/fl_bg01.png" alt="" class="rm_banner">
+				</div></li>
+                <li class="fl_li"><span>生活</span>
+				<div class="fl_rm fl_active">
+				<img src="../img/fl_bg01.png" alt="" class="rm_banner">
+				</div></li>
             </ul>
 
 

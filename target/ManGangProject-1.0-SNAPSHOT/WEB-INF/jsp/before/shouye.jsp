@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,7 +26,7 @@
 			<div class="h_content_list_wrap">
 				<ul class="h_content_list">
 					<li><a href="javasrcipt:;">精选</a></li>
-					<li><a href="./chuanda.html">穿搭</a></li>
+					<li><a href="${pageContext.request.contextPath}/collocation/chuanda">穿搭</a></li>
 					<li><a href="javasrcipt:;">流行</a></li>
 					<li><a href="javasrcipt:;">好物</a></li>
 					<li><a href="javasrcipt:;">发型</a></li>
@@ -38,6 +39,16 @@
 			<div id="h_main">
 				<h2>搭配设计师</h2>
 				<ul class="h_main_bg">
+					<c:forEach items="${designerList}" var="designer">
+						<li><a href="${pageContext.request.contextPath}/beforeDesigner/listDesigner/${designer.id}">
+							<img src="${designer.designerImg}" alt=""></a>
+							<span>${designer.designerName}</span></li>
+					</c:forEach>
+				</ul>
+			</div>
+			<%--<div id="h_main">
+				<h2>搭配设计师</h2>
+				<ul class="h_main_bg">
 					<li><img src="../img/sheji1.png" alt="">
 						<span>罗威</span></li>
 					<li><img src="../img/sheji2.png" alt="">
@@ -47,11 +58,17 @@
 					<li><img src="../img/sheji4.png" alt="">
 						<span>Raul Kling</span></li>
 				</ul>
-			</div>
+			</div>--%>
 			<div class="h_banner">
-				<img src="../img/h_banner2.png" alt="休闲穿搭">
+				<c:forEach items="${collocationList}" var="collocation">
+
+					<a href="${pageContext.request.contextPath}/collocation/list?id=${collocation.id}"><img src="${collocation.collocationImg}" alt="${collocation.collocationName}">
+					<p class="h_banner_p1">${collocation.collocationName}</p>
+					<p class="h_banner_p2">阅读${collocation.viewsTimes} <span>${collocation.showTime}</span></p></a>
+				</c:forEach>
+				<%--<img src="../img/h_banner2.png" alt="休闲穿搭">
 				<p class="h_banner_p1">松垮却又有型的休闲穿搭</p>
-				<p class="h_banner_p2">阅读5756 <span>2019年07月29日</span></p>
+				<p class="h_banner_p2">阅读5756 <span>2019年07月29日</span></p>--%>
 			</div>
 		</div>
 
@@ -70,7 +87,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="./fenlie.html">
+					<a href="${pageContext.request.contextPath}/beforeGoods/classiFication">
 						<i class="iconfont">&#xe671;</i>
 						<p>分类</p>
 					</a>

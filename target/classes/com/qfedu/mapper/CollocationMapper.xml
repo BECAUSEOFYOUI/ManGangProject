@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qfedu.mapper.CollocationMapper">
+    <select id="selectCollocationMax"  resultType="collocation" >
+        select * from collocation where viewsTimes=(select Max(viewsTimes) from collocation)
+    </select>
+    <select id="selectCollocationById" resultType="collocation">
+        select * from collocation where id=#{id}
+    </select>
+    <select id="selectCollocationAll" resultType="collocation">
+        select * from collocation
+    </select>
+</mapper>

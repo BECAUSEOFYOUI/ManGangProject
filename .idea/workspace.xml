@@ -7,222 +7,136 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef179ce0-bcee-4d2b-8920-40e432fe018a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Collocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/CollocationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/CollocationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/shouye.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/lead3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/master.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/demo_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/chuanda.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/dapei.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/fenlie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/gouwuche.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/jingxuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/my_dingdan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/pingpai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/rexiao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/shangxin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/shoucang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/wenzhang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/wode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/youhuiquan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/品牌详情.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/商品详情.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/客服.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/帮助与反馈.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/引导页-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/搭配服务.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/收货信息管理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/本期搭配.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/消息.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/男人帮会员.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/设置.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/邀请好友.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bhp-letter-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bolang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/cd_bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/cd_bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dp_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dp_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dp_img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/duihao1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/duihao2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/fl_bg01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/fl_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/gwc_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/h_banner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/jx_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/jx_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/my_vip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/pp_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/rx_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sheji1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sheji2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sheji3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sheji4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sptd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sx_dog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sx_yifu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/touxiang01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/wz_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/wz_bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/youhuiquan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/引导页--1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/引导页--2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/引导页--3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/rem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/META-INF/ManGangProject.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/entity/Collocation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/CollocationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/CollocationServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/util/MailUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/jsp/before/shouye.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/lib/mail-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/css/lead3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/css/master.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/fonts/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/fonts/demo_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/fonts/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/fonts/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/fonts/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/fonts/iconfont.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/fonts/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/fonts/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/fonts/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/fonts/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/chuanda.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/dapei.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/fenlie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/gouwuche.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/jingxuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/my_dingdan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/pingpai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/rexiao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/shangxin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/shoucang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/wenzhang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/wode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/youhuiquan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/品牌详情.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/商品详情.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/客服.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/帮助与反馈.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/引导页-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/搭配服务.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/收货信息管理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/本期搭配.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/消息.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/男人帮会员.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/设置.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/邀请好友.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/bhp-letter-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/bolang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/cd_bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/cd_bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/dp_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/dp_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/dp_img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/duihao1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/duihao2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/fl_bg01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/fl_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/gwc_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/h_banner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/jx_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/jx_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/my_vip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/pp_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/rx_img01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/sheji1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/sheji2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/sheji3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/sheji4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/sptd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/sx_dog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/sx_yifu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/touxiang01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/wz_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/wz_bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/youhuiquan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/引导页--1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/引导页--2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/img/引导页--3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/js/rem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/ManGangProject.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/qfedu/entity/Collocation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/qfedu/service/CollocationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/CollocationServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/qfedu/util/MailUtils$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8a6733f4-58c0-4982-a31a-3d0155f1dc54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8a6733f4-58c0-4982-a31a-3d0155f1dc54.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/controller/BeforeGoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/controller/BeforeGoodsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Collocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Collocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Designer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Designer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/service/CollocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/CollocationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/service/DesignerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/DesignerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/CollocationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/CollocationServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/DesignerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/DesignerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodTypeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/StyleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/StyleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/util/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/util/MailUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/chuanda.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/chuanda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/shouye.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html/shouye.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ManProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManProjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/chuanda.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/chuanda.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/shouye.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/lead3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/master.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/demo_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/chuanda.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/dapei.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/fenlie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/gouwuche.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/jingxuan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/my_dingdan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/pingpai.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/rexiao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/shangxin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/shoucang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/shouye.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/wenzhang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/wode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/youhuiquan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/品牌详情.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/商品详情.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/客服.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/帮助与反馈.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/引导页-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/搭配服务.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/收货信息管理.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/本期搭配.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/消息.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/男人帮会员.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/设置.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/邀请好友.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/bhp-letter-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/bolang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/cd_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/cd_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/dp_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/dp_img01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/dp_img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/duihao1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/duihao2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/fl_bg01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/fl_img01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/gwc_img01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/h_banner2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/jx_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/jx_img01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/my_vip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/pp_img01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/rx_img01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/sheji1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/sheji2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/sheji3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/sheji4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/sptd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/sx_dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/sx_yifu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/touxiang01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/wz_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/wz_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/youhuiquan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/引导页--1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/引导页--2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/引导页--3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/rem.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/controller/BeforeGoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/controller/BeforeGoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/entity/Collocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/entity/Collocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/entity/Designer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/entity/Designer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/entity/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/entity/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/CollocationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/CollocationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/DesignerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/DesignerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/GoodsTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/GoodsTypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/CollocationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/CollocationServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/DesignerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/DesignerServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/GoodTypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/GoodTypeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/GoodsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/StyleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/StyleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/util/MailUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/com/qfedu/util/MailUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/jsp/before/chuanda.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/jsp/before/chuanda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/jsp/before/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/jsp/before/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/jsp/before/shouye.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/shouye.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.44.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/jsp/before/chuanda.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/jsp/before/shouye.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/WEB-INF/jsp/before/shouye.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/css/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/css/master.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/dapei.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/dapei.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/fenlie.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/fenlie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/gouwuche.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/gouwuche.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/pingpai.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/pingpai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/shoucang.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/shoucang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/品牌详情.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/品牌详情.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/商品详情.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/商品详情.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/客服.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/客服.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/搭配服务.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/搭配服务.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/收货信息管理.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/收货信息管理.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/男人帮会员.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/男人帮会员.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/设置.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ManGangProject-1.0-SNAPSHOT/html/设置.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/controller/BeforeGoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/controller/BeforeGoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/entity/Collocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/entity/Collocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/entity/Designer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/entity/Designer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/entity/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/entity/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/service/CollocationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/service/CollocationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/service/DesignerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/service/DesignerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/service/GoodsTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/service/GoodsTypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/CollocationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/CollocationServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/DesignerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/DesignerServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/GoodTypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/GoodTypeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/GoodsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/StyleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/StyleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/util/MailUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/util/MailUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ManProjectTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/springmvc.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -267,6 +181,34 @@
         <item name="ManGang" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="mangang: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="brand: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ManGang" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mangang: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="collocation: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ManGang" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mangang: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="goods: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ManGang" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mangang: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="style: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ManGang" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mangang: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
@@ -277,11 +219,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/controller/BeforeGoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            <state relative-caret-position="245">
+              <caret line="157" column="56" selection-start-line="157" selection-start-column="56" selection-end-line="157" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -290,31 +232,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/UserService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/GoodsMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/mapper/GoodsMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            <state relative-caret-position="189">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -323,46 +276,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/mapper/UserMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodTypeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+            <state relative-caret-position="316">
+              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+              <folding>
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+        <entry file="das://8a6733f4-58c0-4982-a31a-3d0155f1dc54/schema/mangang/table/brand">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <entry file="das://8a6733f4-58c0-4982-a31a-3d0155f1dc54/schema/mangang/table/collocation">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/shouye.jsp">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a6733f4-58c0-4982-a31a-3d0155f1dc54/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="387">
+              <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-735">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="41" />
+        <entry file="das://8a6733f4-58c0-4982-a31a-3d0155f1dc54/schema/mangang/table/style">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -373,8 +330,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -384,43 +341,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/controller/test1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/exception/MyExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/AdminMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsTypeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Designer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/DesignerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/StyleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/entity/GoodsType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Goods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/MySwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/login.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Collocation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/CollocationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/DesignerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/CollocationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/StyleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/controller/BeforeGoodsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/util/MailUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/test/java/ManProjectTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/shouye.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/qfedu/entity/User.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/UserMapper.xml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8a6733f4-58c0-4982-a31a-3d0155f1dc54/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/qfedu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/DesignerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/DesignerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Designer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/DesignerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/DesignerService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/util/InfoUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/CollocationMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/util/MailUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/util/TimeFormatUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/master.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Collocation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/controller/CommentsContorller.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/wenzhang.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/CollocationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/CollocationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/CollocationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/CollocationMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/util/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/controller/BeforeColloctionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/entity/GoodsType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/fenlie.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/shouye.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/gouwuche.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/shangxin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsTypeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/GoodsTypeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/GoodsTypeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/entity/Brand.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/chuanda.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/controller/BeforeDesignController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8a6733f4-58c0-4982-a31a-3d0155f1dc54/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/controller/BeforeGoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/GoodsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/GoodsMapper.xml" />
       </list>
     </option>
   </component>
@@ -448,10 +419,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="121" />
+    <option name="y" value="107" />
+    <option name="width" value="1755" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -461,6 +433,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -515,15 +488,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="qfedu" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ManGangProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ManGangProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qfedu" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -550,15 +514,6 @@
               <item name="ManGangProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qfedu" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ManGangProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ManGangProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -568,22 +523,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ManGangProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ManGangProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ManGangProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ManGangProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ManGangProject" type="b2602c69:ProjectViewProjectNode" />
@@ -619,24 +558,10 @@
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
               <item name="before" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ManGangProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ManGangProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ManGangProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ManGangProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -646,7 +571,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VideoPlus" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -662,20 +587,23 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\mvc\ManGangProject\src\main\webapp\js" />
+      <recent name="E:\mvc\ManGangProject\src\main\webapp\WEB-INF\jsp" />
       <recent name="E:\mvc\ManGangProject\src\main\webapp\WEB-INF\jsp\before" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\mvc\ManGangProject\src\main\java\com\qfedu\util" />
-      <recent name="E:\mvc\ManGangProject\src\main\webapp\js" />
-      <recent name="E:\mvc\ManGangProject\src\main\webapp" />
-      <recent name="E:\mvc\ManGangProject\src\main\webapp\WEB-INF\jsp\before" />
       <recent name="E:\mvc\ManGangProject\src\main\resources\com\qfedu\mapper" />
+      <recent name="E:\mvc\ManGangProject\src\main\webapp\WEB-INF\jsp\before" />
+      <recent name="E:\mvc\ManGangProject\src\main\java\com\qfedu\mapper" />
+      <recent name="E:\mvc\ManGangProject\src\main\java\com\qfedu\util" />
+      <recent name="E:\mvc\ManGangProject\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.qfedu.util" />
       <recent name="com.qfedu" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.qfedu.mapper" />
       <recent name="com.qfedu.service" />
       <recent name="com.qfedu.entity" />
       <recent name="com.qfedu.service.impl" />
@@ -693,7 +621,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat8.5.41">
+    <configuration name="TimeFormatUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qfedu.util.TimeFormatUtils" />
+      <module name="ManGangProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfedu.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat8.5.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -801,6 +742,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TimeFormatUtils" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -818,7 +764,11 @@
       <workItem from="1569917197314" duration="5822000" />
       <workItem from="1570016192719" duration="7785000" />
       <workItem from="1570065425636" duration="27734000" />
-      <workItem from="1570108341340" duration="11713000" />
+      <workItem from="1570108341340" duration="12513000" />
+      <workItem from="1570152854932" duration="20404000" />
+      <workItem from="1570190454370" duration="12308000" />
+      <workItem from="1570237966951" duration="24656000" />
+      <workItem from="1570278273298" duration="4789000" />
     </task>
     <task id="LOCAL-00001" summary="第一次上传">
       <created>1569854410006</created>
@@ -862,16 +812,24 @@
       <option name="project" value="LOCAL" />
       <updated>1570073463465</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="java文件上传，登陆功能已实现">
+      <created>1570120151153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570120151154</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64362000" />
+    <option name="totallyTimeSpent" value="127319000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="116" y="81" width="1404" height="882" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24396783" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19836552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -882,8 +840,48 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16715543" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.15249267" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28739002" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.16275659" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.15703703" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.31601125" />
+      <window_info active="true" anchor="bottom" id="JRebel Console" order="15" side_tool="true" visible="true" weight="0.30578512" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="bottom" id="Application Servers" order="17" weight="0.32991204" />
+      <window_info anchor="bottom" id="Problems" order="18" />
+      <window_info anchor="bottom" id="Messages" order="19" weight="0.05185185" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.062407132" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20300214" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28739002" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.04398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -895,21 +893,21 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.31601125" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.36510265" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.21407625" />
       <window_info anchor="bottom" id="JRebel Executor" order="16" />
       <window_info anchor="bottom" id="Application Servers" order="17" weight="0.32991204" />
       <window_info anchor="bottom" id="Problems" order="18" />
-      <window_info anchor="bottom" id="Messages" order="19" weight="0.10769231" />
+      <window_info active="true" anchor="bottom" id="Messages" order="19" visible="true" weight="0.07628866" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.10991957" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.154396" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -960,291 +958,10 @@
     <MESSAGE value="java文件上传,测试" />
     <MESSAGE value="java文件上传,mapper" />
     <MESSAGE value="java文件上传，邮箱登录第一次（jia）" />
-    <option name="LAST_COMMIT_MESSAGE" value="java文件上传，邮箱登录第一次（jia）" />
+    <MESSAGE value="java文件上传，登陆功能已实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="java文件上传，登陆功能已实现" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/controller/test1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/exception/MyExceptionHandler.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/chuanda.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/entity/Style.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Destop/Day10-SSM整合/代码/VideoProPlus/src/main/java/com/qfedu/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2835" />
-      </provider>
-    </entry>
-    <entry file="file://E:/Destop/9月25/Day11-图片上传&amp;注解/代码/VideoProPlus/src/main/java/com/qfedu/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3814">
-          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsTypeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/StyleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/CollocationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodTypeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/StyleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/DesignerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/MySwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.12.4.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/rem.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/DesignerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ManProjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="9" column="34" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/entity/Designer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/entity/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/entity/GoodsType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/util/MailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/info.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/CollocationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/entity/Collocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="146" column="20" selection-start-line="146" selection-start-column="20" selection-end-line="146" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/shouye.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-735">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://8a6733f4-58c0-4982-a31a-3d0155f1dc54/schema/mangang/table/user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1252,34 +969,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a6733f4-58c0-4982-a31a-3d0155f1dc54/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="297">
+          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/DesignerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="189">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="-2204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/mapper/DesignerMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="243">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1289,24 +1017,373 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/DesignerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/DesignerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/util/TimeFormatUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/util/MailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/rem.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/master.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/controller/CommentsContorller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/wenzhang1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/util/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/CollocationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/entity/Collocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1809#1810#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="90" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/mapper/CollocationMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/CollocationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1215737750/FileRecv/GoodTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1215737750/FileRecv/GoodsTypeMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/entity/GoodsType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/entity/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8a6733f4-58c0-4982-a31a-3d0155f1dc54/schema/mangang/table/goodstype">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/wenzhang.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/gouwuche.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="68" selection-start-column="68" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/shouye.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/shangxin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/fenlie.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/controller/BeforeColloctionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/CollocationMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/entity/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/chuanda.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsTypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/mapper/GoodsTypeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/GoodsTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/controller/BeforeDesignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8a6733f4-58c0-4982-a31a-3d0155f1dc54/schema/mangang/table/goods">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8a6733f4-58c0-4982-a31a-3d0155f1dc54/schema/mangang/table/brand">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8a6733f4-58c0-4982-a31a-3d0155f1dc54/schema/mangang/table/collocation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8a6733f4-58c0-4982-a31a-3d0155f1dc54/schema/mangang/table/style">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a6733f4-58c0-4982-a31a-3d0155f1dc54/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding>
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/controller/BeforeGoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="245">
+          <caret line="157" column="56" selection-start-line="157" selection-start-column="56" selection-end-line="157" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qfedu/mapper/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>

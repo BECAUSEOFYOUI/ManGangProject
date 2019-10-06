@@ -71,7 +71,8 @@
     text-align: center;
 }
 .h_main_bg li img{
-    width: 100%;
+    width: 1.24rem;
+    height:1.90rem;
 }
 .h_main_bg li span{
     display: block;
@@ -364,7 +365,7 @@
 
 .jx_content{
     padding: 0 0.28rem;
-    overflow: hidden;
+    overflow: scroll;
 }
 .jx_content_list li{
     float: left;
@@ -1134,8 +1135,39 @@
     margin-top: 0.26rem;
 }
 .gwc_duihao img{
-    width: 100%;
+    width: 100%
 }
+
+
+input[type="checkbox"] {
+    width: 0.3rem;
+    height: 0.3rem;
+    position: relative;
+    margin: 0.08rem 0 0 0.08rem;
+}
+
+input[type="checkbox"]::before {
+    background: #fff url(../img/duihao2.png) no-repeat center/cover;
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    top: -0.08rem;
+    left: -0.08rem;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+input[type="checkbox"]:checked::before {
+    background: #fff url(../img/duihao1.png) no-repeat center/cover;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    top: -0.08rem;
+    left: -0.08rem;
+    width: 0.4rem;
+}
+
+
 .Clamisgold p{
     float: left;
     font-size: 0.28rem;
@@ -2177,6 +2209,8 @@
 
 
                                     /* mservice */
+
+
 .mservice-bigbox{
 	/* background-color: #f7f7f7; */
 	background-image: url(../img/sptd.jpg);
@@ -2422,7 +2456,7 @@
 	height: 0.62rem;
 	width: 0.8rem;
 	border: 0;
-	background-color: royalblue;
+	background-color: lightskyblue;
 	font-size: 0.22rem;
 	border-radius: 0.08rem;
 }
@@ -3036,6 +3070,7 @@
 	background-color: orange;
 	display: flex;
 	justify-content: space-between;
+	flex: 0 1 auto;
 
 }
 .span-wrap{
@@ -3057,7 +3092,17 @@
 /* main */
 .brandDetails-main{
 
+	flex: 1;
+	overflow: auto;
+<<<<<<< HEAD
 
+=======
+
+
+>>>>>>> ef88fa10c29983c7b80d52e876593ff7d889a80a
+=======
+
+>>>>>>> 40ad10b0ab73c64088547bfdec5f175fe7085970
 }
 .bdm-top{
 	background-color: #FFFFFF;
@@ -3748,7 +3793,7 @@
 
 /* header */
 .Receiptinformation-header{
-	height: 0.88rem;
+	height: 0.88rem!important;
 	display: flex;
 	justify-content: space-between;
 	box-sizing: border-box;
@@ -3756,6 +3801,10 @@
 	background-color: #303030;
 	align-items: center;
 	color: #f4f0f0;
+	flex: 0 1 auto;
+}
+.Receiptinformation-header h3{
+	font-size: 0.34rem;
 }
 .Receiptinformation-header span{
 	font-size: 0.32rem;
@@ -3772,8 +3821,9 @@
 	padding: 0 0.28rem 0 0.29rem;
 }
 .rim-block h3{
-	font-size:0.26rem ;
+	font-size:0.26rem!important;
 	color: #333333;
+	font-weight: 500;
 }
 .rim-block input{
 	width: 4.49rem;
@@ -3791,9 +3841,11 @@
 	margin-left: 2.35rem;
 }
 .rim-block:nth-child(2){
-	height: 0.74rem;
+	height: 0.94rem!important;
 	line-height: 0.74rem;
 	border-bottom: 0.2rem solid #f7f7f7;
+
+
 }
 .rim-block:nth-child(3){
 	height: 0.74rem;

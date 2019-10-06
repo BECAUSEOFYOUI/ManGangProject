@@ -1,3 +1,4 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +10,22 @@
 	<link rel="stylesheet" href="../css/master.css">
 	<link rel="stylesheet" href="../fonts/iconfont.css">
 	<script src="../js/rem.js"></script>
+	<script src="${pageContext.request.contextPath}/js/jquery-1.12.4.min.js"></script>
+	<script>
+		/*$(function(){
+			alert(111);
+			$.ajax({
+				url:"${pageContext.request.contextPath}/collocation/listAll",
+				type:"post",
+				dataType:"json",
+				success:function(msg){
+					alert(msg);
+				}
+
+
+			});
+		})*/
+	</script>
 </head>
 <body>
     <div class="container">

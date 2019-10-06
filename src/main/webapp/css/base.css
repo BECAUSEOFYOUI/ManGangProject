@@ -22,7 +22,7 @@ html,body{height: 100%;}
 /* -----头部----- */
 header{
 	flex: 0 0 1.28rem;
-	box-sizing: border-box; 
+	box-sizing: border-box;
 	background: #303030;
 	position: relative;
 }
@@ -33,7 +33,9 @@ header{
 	flex: 1;
 	overflow: auto;
 }
-
+.content::-webkit-scrollbar{
+    display: none;
+}
 
 
 /* -----页脚----- */

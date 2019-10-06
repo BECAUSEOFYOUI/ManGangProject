@@ -4,18 +4,50 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title></title>
+		<meta content="yes" name="apple-mobile-web-app-capable" />
+		<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+		<meta content="telephone=no" name="format-detection" />
+		<link rel="stylesheet" href="../css/ydui.css?rev=@@hash" />
+		<link rel="stylesheet" href="../css/demo.css" />
+		<script src="../js/ydui.flexible.js"></script>
 		<link rel="stylesheet" type="text/css" href="../css/master.css" />
 		<link rel="stylesheet" type="text/css" href="../css/base.css" />
 		<link rel="stylesheet" type="text/css" href="../fonts/iconfont.css" />
 		<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
+		<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<script src="../js/ydui.citys.js"></script>
+		<script src="../js/ydui.js"></script>
 		<script type="text/javascript">
 			window.onload=function(){
 				let backs=document.querySelector('.Receiptinformation-header span')
 				backs.onclick=function(){
 					location.href='wode.html'
 				}
+				
+				/**
+				 * 默认调用
+				 */
+				
+				
+				! function() {
+					var $target = $('#J_Address');
+						
+					$target.citySelect();
+						
+					$target.on('click', function(event) {
+						event.stopPropagation();
+						$target.citySelect('open');
+					});
+						
+					$target.on('done.ydui.cityselect', function(ret) {
+						$(this).val(ret.provance + ' ' + ret.city + ' ' + ret.area);
+					});
+				}();
+				
+				
+				
 			}
 		</script>
 		<div class="Receiptinformation-bigbox bigbox">
@@ -38,10 +70,18 @@
 				<h3>联系电话</h3>
 				<input type="text" name="" id="" value="" placeholder="请输入联系电话"/>
 			</div>
-			<div class="rim-block">
-				<h3>所在地区</h3>
-				<p>请选择省份、市县、区县<span class="iconfont icon-dayuhao"></span></p>
-			</div>
+			<section class="g-flexview">
+				<section class="g-scrollview">
+					<div class="m-cell">
+						<div class="cell-item">
+							<div class="cell-left">所在地区</div>
+							<div class="cell-right cell-arrow">
+								<input type="text" class="cell-input" readonly id="J_Address" placeholder="请选择省份、市县、区县">
+							</div>
+						</div>
+					</div>
+				</section>
+			</section>
 				<!-- <textarea rows="" cols="">请填写详细地址（不少于5个字）</textarea> -->
 			<textarea class="textarea" onfocus="document.getElementById('note').style.display='none'" onblur="if(value=='')document.getElementById('note').style.display='block'"></textarea>
 			<div id="note" class="note">
@@ -51,13 +91,9 @@
 
 
 
-			<!-- footer -->
-			<footer class="Receiptinformation-footer">
-
-			</footer>
+			
 		</div>
-
-
+		
 
 	</body>
 </html>

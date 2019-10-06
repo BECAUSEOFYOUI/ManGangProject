@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qfedu.mapper.GoodsTypeMapper">
+    <resultMap id="GoodsMap" type="Goods">
+            <id property="id" column="id"/>
+            <result column="goodsName" property="goodsName" />
+            <result column="goodsPrice" property="goodsPrice" />
+            <result column="goodsDescribe" property="goodsDescribe" />
+            <result column="goodsImg" property="goodsImg" />
+            <result column="goodsTypeId" property="goodsTypeId" />
+    </resultMap>
+
+    <resultMap id="BrandsMap" type="Brand">
+        <id property="id" column="id"/>
+        <result property="brandName" column="brandName"/>
+        <result property="brandImg" column="brandImg"/>
+        <result property="time" column="time"/>
+        <association property="goods" javaType="goods">
+            <id property="id" column="gid"/>
+            <result column="goodsImg" property="goodsImg"/>
+            <result column="goodsPrice" property="goodsPrice"/>
+
+        </association>
+        
+    </resultMap>
+<select id="selectByGoodsTypeId" parameterType="int" resultMap="GoodsMap">
+    SELECT g.* FROM mangang.goods g,mangang.goodstype t where g.goodsTypeId=t.id and t.id=#{id}
+</select>
+    <select id="selectByHotGoodsId" resultMap="GoodsMap" >
+        SELECT * FROM mangang.goods   order by goodsSalesNum desc
+    </select>
+    <select id="selectBrandNewGoods" resultMap="GoodsMap">
+        select b.*,g.id as gid,g.goodsImg,g.goodsPrice from brand b left join goods g on  g.brandId=b.id
+    </select>
+</mapper>

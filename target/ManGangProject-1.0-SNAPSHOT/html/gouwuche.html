@@ -20,13 +20,15 @@
 
 		<div class="content gwc_content">
 			<div class="Clamisgold">
-                <div class="gwc_duihao"><img src="../img/duihao1.png" alt="" id="checkboxAll"></div>
+                <div class="gwc_duihao"><img src="../img/duihao1.png" alt=""></div>
                 <p>Clamisgold</p>
                 <a href="javasrcipt:;" class="iconfont">&#xe625;</a>
             </div>
             <div class="gwc_solid"></div>
             <div class="gwc_list">
-                <div class="gwc_duihao"><img src="../img/duihao1.png" alt="" class="checkboxs"></div>
+                <div class="gwc_duihao">
+                    <input type="checkbox" name="" class="checkboxs">
+                </div>
                 <div class="gwc_img"><img src="../img/gwc_img01.png" alt=""></div>
                 <div class="gwc_txt">
                     <p class="gwc_txt_p1">美式复古潮牌接头休闲翻领长袖外套</p>
@@ -48,7 +50,7 @@
 
         <div class="gwc_jiesuan">
             <div class="gwc_jiesuan_duihao">
-                <img src="../img/duihao1.png" alt="" class="checkboxAll">
+                <input type="checkbox" name="" class="checkboxAll">
             </div>
             <p>全选</p>
             <div class="gwc_jiesuan_heji">
@@ -93,5 +95,24 @@
 			</ul>
 		</footer>
 	</div>
+
+    <script type="text/javascript">
+        let checkboxs = document.querySelectorAll('.checkboxs');
+        let checkboxAll = document.querySelector('.checkboxAll');
+        for(let i=0; i<checkboxs.length; i++){
+
+            checkboxs[i].onchange = function(){
+
+
+            }
+            checkboxAll.onchange = function(){
+                checkboxs[i].checked = this.checked;
+            }
+
+        }
+
+
+
+    </script>
 </body>
 </html>

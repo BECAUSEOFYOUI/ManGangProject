@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<link type="text/css" rel="stylesheet" href="../css/uiAlertView-1.0.0.css" />
+		<script type="text/javascript" src="../js/jquery.uiAlertView-1.0.0.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../fonts/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/master.css"/>
+		<script src="../js/axios.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/api.js"></script>
+		<script src="../js/axios.min.js"></script>
+		<script src="../js/cookie.js"></script>
+
+	</head>
+	<body>
+		<div class="login-bigbox bigbox">
+
+			<!-- header -->
+			<header class="login-header">
+				<span class="iconfont icon-T"></span>
+			</header>
+
+
+			<!-- main -->
+			<div class="login-main">
+				<form action="" method="post">
+					<div class="lm-input">
+
+						<lable for="na">邮&nbsp;&nbsp;箱：</lable>
+						<input type="email" name="" id="na" value="" class="tel"/>
+					</div>
+					<div class="lm-input">
+						<lable for="yan">验证码：</lable>
+						<input type="number" name="" id="yan" value="" class="yanma" style="width: 2rem;"/>
+						<span>发送验证码</span>
+					</div>
+					<input type="button" name="" id="" value="登录" class="loginipt" />
+				</form>
+				<p>免注册，直接用邮箱就能登陆</p>
+				<script type="text/javascript">
+					window.onload=function(){
+					let tel=document.querySelector('.tel')
+					let yanma=document.querySelector('.yanma')
+					let istel=false
+
+
+					// 邮箱正则
+					tel.onchange=function(){
+					let reg=/^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
+
+					if(reg.test(tel.value)){
+					istel=true
+					}else{
+
+					istel=false
+					}
+				}
+
+
+				// 验证验证码的正确
+				let isyanma=false
+				yanma.onchange=function(){
+
+					//获取验证码
+					let code=''
+					axios.post(API,{
+						params:{
+
+						}
+					}).then(res=>{
+
+						code=''
+					})
+
+					if(yanma.length==0){
+						isyanma=false
+					}else if(yanma.value !=code){
+					isyanma=false
+					}else{
+						isyanma=true
+					}
+				}
+
+						//返回按钮
+						let backs=document.querySelector('.login-header span')
+						backs.onclick=function(){
+							location.href='shouye.html'
+						}
+
+						// 登录按钮
+						//邮箱与验证码都正确才能登陆
+						let loginipt=document.querySelector('.loginipt')
+						loginipt.onclick=function(){
+							if(istel){
+								if(isyanma){
+								location.href='shouye.html'
+								}else{
+									$(function() {
+									    // 弹出提示信息
+									    $.alertView("验证码错误");
+
+									})
+									// alert('验证码错误');
+								}
+							}else{
+								$(function() {
+								   // 弹出提示信息
+								   $.alertView("邮箱填写错误");
+
+								})
+								// alert('邮箱填写错误');
+							}
+
+						}
+						//验证码发送计时器
+						let spans=document.querySelector('.lm-input span')
+						spans.onclick=function(){
+
+							let email = tel.value;
+							console.log(email)
+							//发送验证码
+							axios.post(sendAPI,{
+								id:email
+							})
+							.then(res=>{
+								console.log(res.data)
+							})
+
+							timesr()
+
+							function timesr(){
+								let maxtime=60
+
+							let times=setInterval(function(){
+							// let s=parseInt(maxtime%60)
+								if(maxtime>0){
+									spans.onclick=function(){
+										return
+									}
+									msg=maxtime
+									spans.innerHTML=msg
+									maxtime--
+
+								}else{
+
+									clearInterval(times)
+									msg='重新发送'
+									spans.innerHTML=msg
+
+									spans.onclick=function(){
+										timesr()
+									}
+
+								}
+							},1000)
+							}
+
+						}
+
+					}
+				</script>
+
+			<!-- footer -->
+				<footer class="login-footer">
+				<h4>—— 快捷登录 ——</h4>
+				<p class="modth">
+					<em class="iconfont icon-qq-copy"></em>
+					<em class="iconfont">&#xe63e;</em>
+					<em class="iconfont icon-weibo">
+
+					</em>
+				</p>
+			</footer>
+
+			</div>
+
+		</div>
+
+	</body>
+</html>
